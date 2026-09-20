@@ -74,16 +74,16 @@ Python · FastAPI · PostgreSQL · async SQLAlchemy · Alembic · Redis · Celer
 
 ## Подтверждение работоспособности
 
-Для текущего backend release-кандидата подтверждены:
+Для текущего backend MVP в приватном development repository подтверждены:
 
-- **505 автоматических тестов**;
+- автоматические тесты;
 - Ruff и MyPy;
 - runtime OpenAPI check;
 - проверки import boundaries, thin routers и datetime policy;
 - CI, Docker smoke и локальный demo-сценарий;
 - миграции, demo seed и screen-level API: Dashboard, Market Fit и Vacancies.
 
-Полная расшифровка: [качество и evidence](docs/quality.md).
+Публичный репозиторий не дублирует private CI: здесь размещены только безопасные demo-ответы API. Полная расшифровка: [качество и evidence](docs/quality.md).
 
 ## Мой вклад
 
