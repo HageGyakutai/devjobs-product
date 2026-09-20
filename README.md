@@ -104,7 +104,6 @@ Python · FastAPI · PostgreSQL · async SQLAlchemy · Alembic · Redis · Celer
 - [Качество и проверки](docs/quality.md)
 - [Ограничения MVP](docs/limitations.md)
 - [Статус и развитие](docs/roadmap.md)
-- [Сценарий записи демо](docs/demo-recording.md)
 
 ## Границы публичного репозитория
 
