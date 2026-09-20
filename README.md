@@ -56,6 +56,18 @@ flowchart TD
 
 Транспортный слой API остаётся тонким: бизнес-правила находятся в use-case и сервисных слоях, доступ к данным отделён репозиториями, тяжёлые операции выполняются асинхронными worker-задачами.
 
+## Демонстрация API
+
+Ниже — обезличенный локальный demo-сценарий: все ответы получены из воспроизводимого demo dataset, без реальных резюме, токенов или персональных данных. Каждый product endpoint вернул `200 OK`.
+
+| API-контур | Подтверждение |
+| --- | --- |
+| Frontend API | [Список product endpoints](docs/evidence/swagger-frontend-api.png) |
+| Dashboard | [Career Dashboard: оценка и ближайшие действия](docs/evidence/dashboard-response.png) |
+| Market Fit | [Сильные стороны, дефициты и рекомендации](docs/evidence/market-fit-response.png) |
+| Vacancies | [Подбор и ранжирование релевантных вакансий](docs/evidence/vacancies-response.png) |
+| Roadmap | [План развития с быстрыми результатами](docs/evidence/roadmap-response.png) |
+
 ## Технологии
 
 Python · FastAPI · PostgreSQL · async SQLAlchemy · Alembic · Redis · Celery · Docker Compose · Pytest · Ruff · MyPy · GitHub Actions
