@@ -26,7 +26,7 @@
 | 20–35 сек | Swagger: Dashboard endpoint | Показать успешный ответ для demo profile |
 | 35–50 сек | Market Fit | Показать score, strengths, gaps и next action |
 | 50–65 сек | Vacancies и Roadmap | Показать рекомендации и план развития |
-| 65–80 сек | Quality evidence | «505 tests passed, CI, Docker smoke» |
+| 65–80 сек | Quality evidence | «Автоматические тесты, CI и Docker smoke в private development repository» |
 | 80–90 сек | Финал | «Backend MVP готов; frontend — следующий этап» |
 
 ## Обязательная проверка перед публикацией
